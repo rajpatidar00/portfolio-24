@@ -25,7 +25,7 @@
 }
 
 .column h1 {
-    color: rgb(118, 115, 115)/600;
+    color: rgb(118, 115, 115);
 }
 
 /* .imgbg {
@@ -95,7 +95,7 @@
 .row {
     width: 1216px;
     height: 28px;
-    color: #ffffff;
+    color: rgba(75, 85, 99, 1);
     /* background-color: blanchedalmond; */
     margin-left: 30px;
     display: flex;
@@ -104,9 +104,10 @@
 }
 
 .row span {
-    background-color: rgba(75, 85, 99, 1);
+    background-color: rgba(229, 231, 235, 1);
     border-radius: 12px;
     padding: 4px;
+    font-weight: 500;
 }
 
 .row1 {
@@ -129,6 +130,7 @@
     height: 694px;
     /* background-color: rgb(221, 189, 148); */
     margin-left: 47px;
+    color: rgba(75, 85, 99, 1);
 }
 
 .content {
@@ -136,6 +138,7 @@
     height: 634px;
     /* background-color: rgb(141, 171, 161); */
     margin-top: 23px;
+    color: rgba(75, 85, 99, 1);
 }
 
 .checklist {
@@ -147,6 +150,7 @@
 .text {
     width: 287px;
     height: 58px;
+
 }
 
 .text1 {
@@ -179,18 +183,20 @@
 }
 
 .shadow1 {
-    background-color: rgb(215, 218, 220);
+    background-color: rgba(229, 231, 235, 1);
     position: absolute;
     height: 490px;
     width: 400px;
     margin-top: 40px;
 }
+
 .poss {
     margin-left: 100px;
     margin-bottom: 340px;
 }
+
 .imgbg {
-   
+
     height: 360px;
     width: 340px;
     position: absolute;
@@ -207,10 +213,166 @@
 }
 
 .shadow {
-    background-color: rgb(183, 174, 174);
+    background-color: rgba(229, 231, 235, 1);
     height: 320px;
     width: 300px;
     position: absolute;
     margin-top: 32px;
     margin-left: 32px;
+}
+
+.page3 {
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(249, 250, 251, 1);
+}
+
+.container2 {
+    width: 1280px;
+    height: 1200px;
+    /* background-color: bisque; */
+}
+
+.box2 {
+    width: 1216px;
+    height: 72px;
+    margin: auto;
+}
+
+.experiance {
+    width: 1216px;
+    height: 35px;
+    /* background-color: rgb(86, 145, 125); */
+    display: flex;
+    color: rgba(75, 85, 99, 1);
+}
+
+.experiance span {
+    background-color: rgba(229, 231, 235, 1);
+    border-radius: 15px;
+    padding: 4px;
+    margin: auto;
+    font-weight: 500;
+}
+
+.info {
+    width: 1216px;
+    height: 35px;
+    display: flex;
+
+
+}
+
+.info span {
+    color: rgba(75, 85, 99, 1);
+    margin: auto;
+    font-weight: 700;
+}
+
+.column1 {
+    width: 896px;
+    height: 288px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: end;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 70px;
+
+}
+
+.logo1 {
+    width: 206px;
+    height: 28px;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.detail {
+    width: 384px;
+    height: 224px;
+    margin-left: 40px;
+    margin-top: 32px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.date {
+    width: 206px;
+    height: 28px;
+    margin-left: 60px;
+    margin-top: 32px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.column2 {
+    width: 896px;
+    height: 264px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: end;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 13%;
+    margin-top: 70px;
+}
+
+.column3 {
+    width: 896px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: end;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 13%;
+    margin-top: 70px;
+}
+
+.logo2 {
+    width: 206px;
+    height: 28px;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.detail1 {
+    width: 384px;
+    height: 224px;
+    margin-left: 40px;
+    margin-top: 32px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.date1 {
+    width: 206px;
+    height: 28px;
+    margin-left: 60px;
+    margin-top: 32px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.logo3 {
+    width: 206px;
+    height: 28px;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.detail2 {
+    width: 384px;
+    height: 224px;
+    margin-left: 40px;
+    margin-top: 32px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.date2 {
+    width: 206px;
+    height: 28px;
+    margin-left: 60px;
+    margin-top: 32px;
+    color: rgba(75, 85, 99, 1);
 }
