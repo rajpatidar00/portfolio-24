@@ -49,3 +49,73 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.skills {
+    /* background-color: lightblue; */
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con {
+    /* background-color: lightcoral; */
+    height: 368px;
+    width: 75%;
+}
+
+.row1 {
+    /* background-color: lightgreen; */
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    
+}
+.border1{
+    background-color: lightslategrey;
+    padding: 4px 20px 4px 20px;
+    border-radius: 15px;
+}
+
+.row2 {
+    /* background-color: lightgreen; */
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.con2 {
+    /* background-color: lightgreen; */
+    height: 300px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.line {
+    /* background-color: lightseagreen; */
+    height: 100px;
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo {
+    /* background-color: lightblue; */
+    height: 100px;
+    width: 90px;
+    display: flex;
+    margin-left: -10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
