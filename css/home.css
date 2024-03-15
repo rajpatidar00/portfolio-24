@@ -9,22 +9,26 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 80px;
 }
 
 .navbar {
-    background-color:
-        #FFFFFF;
+    background-color:#ffffff;
     display: flex;
-    width: 80%;
+    width: 100%;
     align-items: center;
     font-weight: 200;
     height: 80px;
     border-bottom: #ced6e7 solid 1px;
-
+     position: fixed;
+     z-index: 1;
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 100px;
+}
+#siteLogo {
+    padding-left: 135px;
 }
 
 .points {
@@ -55,16 +59,23 @@
 
 .skills {
     /* background-color: lightblue; */
-    height: 465px;
+    height: Fill(465px);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width:910px){
+    .skills{
+        height: 1000px;
+        margin-top: -100px;
+    }
+}
+
 
 .con {
     /* background-color: lightcoral; */
-    height: 400px;
+    height: 450px;
     width: 75%;
 }
 
@@ -80,7 +91,7 @@
 }
 
 .border1 {
-    background-color: lightslategrey;
+    background-color: #E5E7EB;
     padding: 4px 20px 4px 20px;
     border-radius: 15px;
     height: 10px;
@@ -98,7 +109,7 @@
 
 .con2 {
     /* background-color: lightgreen; */
-    height: 248px;
+    height: 100px;
     width: 100%;
     margin-top: 25px;
     display: flex;
@@ -108,13 +119,19 @@
 
 .line {
     /* background-color: lightseagreen; */
-    height: 100px;
+    height: 300px;
     width: 100%;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
+@media only screen and (max-width:610px){
+    .line{
+        flex-wrap: wrap;
+    }
+}
+
 
 .logo {
     /* background-color: lightblue; */
