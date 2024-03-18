@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0px;
     margin: 0px;
     font-family: "Rubik", sans-serif;
@@ -12,8 +12,7 @@
     align-items: center;
     margin-left: 152px;
     /* margin-top: 80px; */
-    grid-template-columns: repeat(auto-fill, minmax(400px));
-
+    /* grid-template-columns: repeat(auto-fill, minmax(400px)); *
 }
 
 
@@ -22,7 +21,7 @@
     height: 360px;
     margin-left: 20px;
 
-    /* background-color:blueviolet; */
+    /* background-color:blueviolet; 
 }
 
 .column h1 {
@@ -34,7 +33,7 @@
     width: 200px;
     height: 200px;
     position: relative;
-} */
+} 
 
 .location {
     margin-top: 15px;
@@ -49,18 +48,17 @@
 
 .icon {
     margin-top: 100px;
-    color: rgb(118, 115, 115)/600;
-
+    /* color: rgb(118, 115, 115)/600; 
 }
 
 .introduction {
-    width: 700px;
+    width: 800px;
     height: 150px;
     margin-top: 15px;
-    /* background-color: aquamarine; */
-}
+    /* background-color: aquamarine; 
+} */
 
-.column h1 {
+/* .column h1 {
     font-weight: 700;
     color: rgba(17, 24, 39, 1);
 }
@@ -76,8 +74,10 @@
     margin-left: 170px;
 
 }
+ */
 
-.about {
+
+/*.about {
     width: fill(1520px);
     height: 962px;
     background-color: rgba(249, 250, 251, 1);
@@ -91,13 +91,13 @@
     height: 770px;
     /* background-color:  rgba(75, 85, 99, 1); */
 
-}
+/*
 
 .row {
     width: 1216px;
     height: 28px;
     color: rgba(75, 85, 99, 1);
-    /* background-color: blanchedalmond; */
+     background-color: blanchedalmond; 
     margin-left: 30px;
     display: flex;
     align-items: center;
@@ -114,7 +114,7 @@
 .row1 {
     width: 1216px;
     height: 694px;
-    /* background-color: blanchedalmond; */
+     background-color: blanchedalmond;
     margin-left: 30px;
     margin-top: 45px;
     display: flex;
@@ -123,13 +123,13 @@
 .box {
     width: 584px;
     height: 694px;
-    /* background-color: rgb(221, 189, 148); */
+     background-color: rgb(221, 189, 148); 
 }
 
 .box1 {
     width: 584px;
     height: 694px;
-    /* background-color: rgb(221, 189, 148); */
+ background-color: rgb(221, 189, 148); 
     margin-left: 47px;
     color: rgba(75, 85, 99, 1);
 }
@@ -137,7 +137,7 @@
 .content {
     width: 584px;
     height: 634px;
-    /* background-color: rgb(141, 171, 161); */
+     background-color: rgb(141, 171, 161); 
     margin-top: 23px;
     color: rgba(75, 85, 99, 1);
 }
@@ -168,14 +168,14 @@
 }
 
 .poss1 {
-    /* background-color: red; */
+     background-color: red; 
     height: 550px;
     width: 520px;
     display: flex;
 }
 
 .imagebg {
-    /* background-color: blue; */
+     background-color: blue; 
     height: 518px;
     width: 500px;
     margin-top: 32px;
@@ -191,9 +191,41 @@
     margin-top: 40px;
     /* z-index: initial; */
     /* position: relative; */
+/* } */
+
+/* .posshide {
+    margin-left: 100px;
+    margin-bottom: 340px;
+    display: none;
 }
 
-.poss {
+.imgbg {
+
+    height: 360px;
+    width: 340px;
+    position: absolute;
+}
+
+.imglink {
+    height: 320px;
+    width: 300px;
+    border: #ffffff solid 5px;
+    border-top: none;
+    border-left: none;
+    object-fit: cover;
+    position: relative;
+}
+
+.shadow {
+    background-color: rgba(229, 231, 235, 1);
+    height: 320px;
+    width: 300px;
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 32px;
+} */
+
+/* .poss {
     margin-left: 100px;
     margin-bottom: 340px;
 }
@@ -237,7 +269,7 @@
     width: 1280px;
     height: 980px;
     /* background-color: bisque; */
-}
+/* }
 
 .box2 {
     width: 1216px;
@@ -249,7 +281,7 @@
     width: 1216px;
     height: 35px;
     /* background-color: rgb(86, 145, 125); */
-    display: flex;
+    /* display: flex;
     color: rgba(75, 85, 99, 1);
 }
 
@@ -406,9 +438,8 @@
     display: flex;
     /* align-items: center;
     justify-content: center; */
-}
 
-.testimonal span {
+/*.testimonal span {
     background-color: rgba(229, 231, 235, 1);
     color: rgba(75, 85, 99, 1);
     border-radius: 15px;
@@ -432,11 +463,10 @@
     background-color: rgba(249, 250, 251, );
     margin: auto;
     margin-top: 46px;
-    display: flex;
-    justify-content: space-between;
-}
+    display: grid;
+    /* justify-content: space-between; */
 
-.comment1 {
+/*.comment1 {
     width: 337px;
     height: 428px;
     background-color: #ffffff;
@@ -534,8 +564,8 @@
     margin-left: 15%;
     margin-top: 35px;
     color: rgba(75, 85, 99, 1);
-}
-.page4{
+}*/
+/*.page4{
     width: 100%;
     height: 560px;
     background-color: #ffffff;
@@ -589,9 +619,9 @@ margin: auto;
     justify-content: center;
     font-weight: 1300;
     gap: 20px;
-    /* justify-content: space-between; */
+    justify-content: space-between; */
 
-}
+/*
 .email img{
 width: 20px;
 height: 20px;
@@ -638,8 +668,8 @@ height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.img{
+} */
+/*.img{
     color:rgba(75, 85, 99, 1) ;
 
 }
@@ -655,13 +685,55 @@ height: 20px;
     width: 1280px;
     height: 30px;
     color:rgba(75, 85, 99, 1) ;
- display: flex;
- align-items: center;
- justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .myfooter{
     width: 430px;
     height: 30px;
-    color:rgba(75, 85, 99, 1) ;
-    font-weight: 600;
-}
+    color:rgba(75, 85, 99, 1);
+    font-weight: 600; */
+
+/* @media only screen and (max-width:1050px){
+    .container {
+       height:100vh;
+       display: flex;
+       flex-direction: column;
+    }
+    .poss {
+        display: none;
+        margin-top: 8vw;
+    }
+    .posshide {
+        display: block;
+        margin-top: 30px;
+    }
+    .column h1 {
+        font-weight: 700;
+        color: rgba(17, 24, 39, 1);
+        margin-top: 55vh;
+    }
+    .introduction {
+        width: 48vw;
+        height: 20v;
+        margin-top: 100px;
+        margin-left: 16vw;
+    }
+    .hire {
+        margin-left: 16vw;
+    }
+    .location {
+        margin-left: 16vw;
+    }
+    .pannel1 {
+        height:Fill(90vh);  
+        flex-wrap: wrap;
+        gap: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .comment {
+        height: 100vh;
+    }
+    
+} */
