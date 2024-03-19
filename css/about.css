@@ -1,12 +1,15 @@
-#about {
-    background-color: lightblue;
-}
+
 .row {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: blue;
     margin-bottom: 40px;
+}
+
+.row span {
+    background-color: rgb(229, 231, 235);
+    padding: 5px 15px;
+    border-radius: 15px;
 }
 
 .row1 {
@@ -20,12 +23,10 @@
 }
 .mainimg img {
     width: 100%;
-    max-width: 300px;
 }
 
 @media (max-width:700px){
     .row1 {
-        background-color: rgb(145, 240, 145);
         display: grid;
         grid-template-columns: 1fr;
 
