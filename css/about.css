@@ -19,7 +19,7 @@
 }
 .box {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .mainimg img {
     width: 100%;

@@ -1,0 +1,122 @@
+.commentbox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tank {
+   width: 100%;
+}
+
+.pannel {
+    width: 100%;
+    height: 72px;
+    margin: auto;
+
+}
+
+.testimonal {
+    width: 100%;
+    height: 36px;
+    display: flex;
+}
+
+.testimonal span {
+    background-color: rgba(229, 231, 235, 1);
+    color: rgba(75, 85, 99, 1);
+    border-radius: 15px;
+    padding: 7px;
+    margin: auto;
+    font-weight: 500;
+}
+
+.paregraph {
+    width: 100%;
+    height: 36px;
+    color: rgba(75, 85, 99, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pannel1 {
+    background-color: rgba(249, 250, 251, );
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    padding: 30px;
+}
+@media (max-width:1000px){
+    .pannel1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.comment {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: #0000003d 0px 3px 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.comment img {
+    width: 64px;
+    height: 64px;
+    margin-top: 20px;
+    margin-left: 40%;
+    background-color: rgb(207, 210, 217);
+    border-radius: 100%;
+}
+
+.detailbox {
+   
+    height: 120px;
+    margin-left: 15%;
+    margin-top: 35px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.customerdetai {
+    height: 52px;
+    margin-left: 15%;
+    margin-top: 35px;
+    color: rgba(75, 85, 99, 1);
+}
+
+
+.detailbox1 {
+    height: 120px;
+    margin-left: 15%;
+    margin-top: 35px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.customerdetai1 {
+   
+    height: 52px;
+    margin-left: 15%;
+    margin-top: 35px;
+    color: rgba(75, 85, 99, 1);
+}
+.detailbox2 {
+  
+    height: 120px;
+    margin-left: 15%;
+    margin-top: 35px;
+    color: rgba(75, 85, 99, 1);
+}
+
+.customerdetai2 {
+   
+    height: 52px;
+    margin-left: 15%;
+    margin-top: 35px;
+    color: rgba(75, 85, 99, 1);
+}

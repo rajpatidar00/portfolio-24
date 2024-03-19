@@ -1,9 +1,9 @@
-// Work
+//getInTouch
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('./work/work.html')
+    fetch('./getInTouch/get.html')
       .then(response => response.text())
       .then(html => {
-        document.getElementById('work').innerHTML = html;
+        document.getElementById('get').innerHTML = html;
       })
       .catch(error => {
         console.error('Error fetching footer:', error);
